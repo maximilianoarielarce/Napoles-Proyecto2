@@ -46,41 +46,6 @@
     }
 }
 
-.homeSpecials--gridItem:nth-of-type(5n + 1) {
-    grid-row: span 2 !important;
-}
-
-.homeSpecials--gridItem:nth-of-type(5n + 2) {
-    aspect-ratio: 1.49 !important;
-}
-
-.homeSpecials--gridItem:nth-of-type(5n + 3) {
-    grid-row: span 2 !important;
-}
-
-.homeSpecials--gridItem:nth-of-type(5n + 5) {
-    grid-column: span 2 !important;
-    grid-row: span 2 !important;
-}
-
-.homeSpecials--gridItem:nth-of-type(5n + 5) > div {
-    justify-content: center !important;
-    align-items: center !important;
-    text-align: center !important;
-}
-
-@media (min-width: 1024px) {
-    .homeSpecials--gridItem:nth-of-type(5n + 2) {
-        aspect-ratio: 3.82 !important;
-    }
-}
-
-@media (min-width: 768px) {
-    .homeSpecials--gridItem:nth-of-type(5n + 5) {
-        grid-row: span 1 !important;
-    }
-}
-
 .homeTestimonials--swiperPrev .swiper-button-lock,
 .homeTestimonials--swiperNext .swiper-button-lock {
     opacity: 0.5 !important;

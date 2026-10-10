@@ -88,27 +88,6 @@ export const homeData = {
             },
         ],
     },
-    /* menuSection: {
-        title: 'Menú',
-        description:
-            '<p>Aca vas a encontrar nuestros platos principales. Cada plato es una obra de arte, con ingredientes frescos y sabores únicos. Disfruta de una experiencia culinaria única en Nápoles.</p>',
-        meals: [
-             {
-                title: 'Almuerzo',
-                slug: 'lunch',
-                description:
-                    '<p>Cortá la rutina del mediodía con un almuerzo como en casa. En Nápoles te invitamos a hacer una pausa y disfrutar de nuestras opciones ejecutivas y platos tradicionales, hechos con amor y materia prima premium. Vení a recargar energías en un ambiente cómodo, relajado y con la calidez de nuestra atención de siempre.</p>',
-                cover_image: '/images/005-meal-1.webp',
-            },
-            {
-                title: 'Cena',
-                slug: 'dinner',
-                description:
-                    '<p>Para nosotros, la cena es el momento más sagrado del día. Es cuando encendemos nuestro horno para prepararte la verdadera pizza napolitana de bordes gruesos, y cuando servimos nuestras pastas artesanales hechas a mano, como nuestro exclusivo pappardelle relleno de carne braseada al vino por 6 horas. Te invitamos a cerrar el día en un ambiente íntimo y acogedor, disfrutando de sabores reales con la calidez de nuestra atención</p>',
-                cover_image: '/images/006-meal-2.webp',
-            },
-        ],
-    }, */
     seasonsSection: {
         title: 'Menú',
         description:
@@ -211,11 +190,6 @@ export const homeData = {
             },
         ],
     },
-   /*  specialsSection: {
-        title: 'Especiales del día',
-        description:
-            '<p>Cada día preparamos platos especiales con ingredientes frescos. Consultá en el local o por WhatsApp las propuestas de la jornada.</p>',
-    }, */
     eventsSection: {
         title: 'Eventos',
         description:
@@ -244,159 +218,6 @@ export const homeData = {
         google_maps_url:
             'https://www.google.com/maps/place/Napoles+Cucina+Italiana/@-34.7656075,-58.1991434,17z/data=!3m1!4b1!4m6!3m5!1s0x95a329c1bf25150d:0x3ad8dbd235e74a4e!8m2!3d-34.7656075!4d-58.1991434!16s%2Fg%2F11l1wpwt1c',
     },
-};
-
-export const foodItemsData = [
-    {
-        title: 'Kebab',
-        slug: 'kebab',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 10,
-        cover_image: '/images/019-food-0-kebab.webp',
-        day_available: 'SUN',
-        special: true,
-        meal_types: ['lunch', 'dinner'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Meatballs',
-        slug: 'meatballs',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 11,
-        cover_image: '/images/020-food-1-meatballs.webp',
-        day_available: 'SUN',
-        special: true,
-        meal_types: ['lunch', 'dinner'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Avocado Toast With Egg',
-        slug: 'avocado-toast-with-egg',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 10,
-        cover_image: '/images/021-food-2-avocado-toast-with-egg.webp',
-        day_available: 'SUN',
-        special: true,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Salad',
-        slug: 'salad',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 10,
-        cover_image: '/images/022-food-3-salad.webp',
-        day_available: 'SUN',
-        special: true,
-        meal_types: ['lunch', 'dinner'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Pizza',
-        slug: 'pizza',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 12,
-        cover_image: '/images/023-food-4-pizza.webp',
-        day_available: 'SUN',
-        special: true,
-        meal_types: ['lunch', 'dinner'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Garlic bread',
-        slug: 'garlic-bread',
-        description:
-            '<p>Freshly baked bread brushed with garlic butter and served with a side of marinara sauce</p>',
-        price: 6,
-        cover_image: '/images/024-food-5-garlic-bread.webp',
-        day_available: 'SUN',
-        special: false,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Bruschetta',
-        slug: 'bruschetta',
-        description:
-            '<p>Toasted bread topped with fresh tomatoes, basil, and olive oil</p>',
-        price: 7,
-        cover_image: '/images/025-food-6-bruschetta.webp',
-        day_available: 'SUN',
-        special: false,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Fried CalamarI',
-        slug: 'fried-calamari',
-        description:
-            '<p>Tender calamari rings lightly battered and fried to golden perfection, served with a side of marinara sauce</p>',
-        price: 9,
-        cover_image: '/images/026-food-7-fried-calamari.webp',
-        day_available: 'SUN',
-        special: false,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Buffalo Wings',
-        slug: 'buffalo-wings',
-        description:
-            '<p>Crispy chicken wings coated in spicy buffalo sauce and served with a side of blue cheese dressing</p>',
-        price: 8,
-        cover_image: '/images/027-food-8-buffalo-wings.webp',
-        day_available: 'SUN',
-        special: false,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-    {
-        title: 'Spinach and Artichoke Dip',
-        slug: 'spinach-and-artichoke-dip',
-        description:
-            '<p>: A creamy blend of spinach, artichoke hearts, and melted cheese, served with tortilla chips</p>',
-        price: 10,
-        cover_image: '/images/028-food-9-spinach-and-artichoke-dip.webp',
-        day_available: 'SUN',
-        special: false,
-        meal_types: ['breakfast'],
-        seasons: ['spring'],
-    },
-];
-
-export const menuData = {
-    seo: {
-        title: 'Menú',
-    },
-    title: 'Menú',
-    meals: [
-        {
-            title: 'Almuerzo',
-            slug: 'lunch',
-            description:
-                '<p>Platos ejecutivos y propuestas de la cocina italiana para el mediodía, en un ambiente relajado.</p>',
-            cover_image: '/images/030-menu-meal-1.webp',
-        },
-        {
-            title: 'Cena',
-            slug: 'dinner',
-            description:
-                '<p>Pizzas napolitanas, pastas artesanales y platos de autor para cerrar el día en Nápoles.</p>',
-            cover_image: '/images/031-menu-meal-2.webp',
-        },
-        {
-            title: 'Postres',
-            slug: 'dessert',
-            description:
-                '<p>Postres caseros inspirados en la tradición italiana para terminar tu comida con dulzura.</p>',
-            cover_image: '/images/032-menu-meal-3.webp',
-        },
-    ],
 };
 
 export const aboutData = {
@@ -469,39 +290,6 @@ export const reservationData = {
         title: 'Reservas',
     },
     title: 'Reservas',
-};
-
-export const seasonalData = {
-    seasons: [
-        {
-            title: 'Primavera',
-            slug: 'spring',
-            description:
-                '<p>Ingredientes frescos y platos ligeros que celebran la llegada de la primavera.</p>',
-            cover_image: '/images/040-seasonal-0.webp',
-        },
-        {
-            title: 'Verano',
-            slug: 'summer',
-            description:
-                '<p>Propuestas frescas y sabores vibrantes para los días más cálidos del año.</p>',
-            cover_image: '/images/041-seasonal-1.webp',
-        },
-        {
-            title: 'Otoño',
-            slug: 'fall',
-            description:
-                '<p>Sabores más intensos y platos reconfortantes con productos de estación.</p>',
-            cover_image: '/images/042-seasonal-2.webp',
-        },
-        {
-            title: 'Invierno',
-            slug: 'winter',
-            description:
-                '<p>Pastas, guisos y platos de horno para disfrutar el frío con calidez italiana.</p>',
-            cover_image: '/images/043-seasonal-3.webp',
-        },
-    ],
 };
 
 export const legalData = [
